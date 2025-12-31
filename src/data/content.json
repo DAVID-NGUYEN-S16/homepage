@@ -76,7 +76,7 @@
     },
     {
       "date": "Oct 2023",
-      "content": "Won Encouragement Prize at UIT Challenge 2023 Competition with our Vietnamese fact-checking framework SemViQA!",
+      "content": "Encouragement Prize at UIT Challenge 2023 Competition with our Vietnamese fact-checking framework SemViQA!",
       "links": []
     }
   ],
@@ -92,7 +92,7 @@
           "venue": "Under review",
           "links": {
             "paper": "https://arxiv.org/pdf/2505.13380",
-            "github": "https://github.com/Fsoft-AIC/CompeteSMoE++"
+            "github": "https://github.com/Fsoft-AIC/CompeteSMoE"
           }
         },
         {
