@@ -1,0 +1,139 @@
+.sidebar {
+  width: 300px;
+  padding: 40px 20px;
+  flex-shrink: 0;
+}
+
+.sidebarContent {
+  position: sticky;
+  top: 100px;
+}
+
+.profileImageContainer {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.profileImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border: 3px solid var(--border-color);
+  transition: border-color 0.3s ease;
+}
+
+.profilePlaceholder {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: var(--bg-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border: 3px solid var(--border-color);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.profilePlaceholderText {
+  font-size: 3em;
+  font-weight: bold;
+  color: var(--text-tertiary);
+  transition: color 0.3s ease;
+}
+
+.name {
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+  color: var(--text-primary);
+  transition: color 0.3s ease;
+}
+
+.typingCursor {
+  display: inline-block;
+  margin-left: 2px;
+  color: var(--text-primary);
+  animation: blink 1s infinite;
+  font-weight: 300;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
+.title {
+  font-size: 0.95em;
+  color: var(--text-secondary);
+  margin-bottom: 25px;
+  text-align: center;
+  line-height: 1.5;
+  transition: color 0.3s ease;
+}
+
+.contactLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contactLink {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-primary);
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: color 0.2s;
+}
+
+.contactLink:hover {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.contactLink svg {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    padding: 20px 15px;
+  }
+
+  .sidebarContent {
+    position: static;
+    text-align: center;
+  }
+
+  .profileImage,
+  .profilePlaceholder {
+    width: 150px;
+    height: 150px;
+  }
+
+  .profilePlaceholderText {
+    font-size: 2.5em;
+  }
+
+  .name {
+    font-size: 1.5em;
+  }
+
+  .contactLinks {
+    align-items: center;
+  }
+}
+
