@@ -66,7 +66,7 @@
     },
     {
       "date": "Oct 2024",
-      "content": "Graduated from IUH with a Bachelor's degree in Data Science (GPA: 3.65/4), completing the program one year early!",
+      "content": "Graduated from IUH with a Bachelor's degree in Data Science (CGPA: 3.65/4), completing the program one year early!",
       "links": []
     },
     {
@@ -77,6 +77,21 @@
     {
       "date": "Oct 2023",
       "content": "Encouragement Prize at UIT Challenge 2023 Competition with our Vietnamese fact-checking framework SemViQA!",
+      "links": []
+    }, 
+    {
+      "date": "Dec 2022",
+      "content": "Awarded the Second Prize at the 31st Vietnam Student Informatics Olympiad.",
+      "links": []
+    },
+    {
+      "date": "Jun 2022",
+      "content": "Started my studies in Data Science at IUH with a CGPA of 3.87/4.",
+      "links": []
+    },
+    {
+      "date": "Oct 2021",
+      "content": "Began my journey at the Information Technology Department of IUH, Vietnam.",
       "links": []
     }
   ],
