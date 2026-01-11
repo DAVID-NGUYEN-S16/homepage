@@ -4,7 +4,7 @@ import Section from './Section';
 import NewsItem from './NewsItem';
 
 const MainContent = ({ data }) => {
-  const { personal, collaboration, news, publications, education, experiences } = data;
+  const { personal, news, publications, education, experiences } = data;
 
   return (
     <main className={styles.mainContent}>
@@ -20,33 +20,6 @@ const MainContent = ({ data }) => {
             })}
           </p>
         </div>
-
-        {personal.supervisor && (
-          <div className={styles.supervisorSection}>
-            <p className={styles.supervisorInfo}>
-              <strong>Current Supervisor:</strong>{' '}
-              <a
-                href={personal.supervisor.homepage}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.supervisorLink}
-              >
-                {personal.supervisor.name}
-              </a>
-              {personal.supervisor.experience && (
-                <span className={styles.supervisorExperience}>
-                  {' '}({personal.supervisor.experience})
-                </span>
-              )}
-            </p>
-          </div>
-        )}
-
-        <Section title="">
-          <p className={styles.collaboration}>
-            <span role="img" aria-label="collaboration">💥</span>: {collaboration}
-          </p>
-        </Section>
 
         <Section title="News" id="news">
           <div className={styles.newsList}>
