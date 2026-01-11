@@ -3,10 +3,10 @@
     "name": "Nam Nguyen",
     "image_avatar": "/images/avata.jpeg",
     "title": "AI Research Engineer at FPT Software AI Center",
-    "bio": "Thank you for visiting! I am an AI Research Engineer with nearly two years of hands-on experience in Large Language Models (LLMs), Generative AI, and Mixture-of-Experts (MoE) algorithms. Currently, I work at FPT Software AI Center under the supervision of Dr. Quang Pham, contributing to both research and engineering projects. My expertise spans developing and optimizing Vision-Language Models, designing advanced AI agents, and building benchmarking frameworks such as LibMoE and CodeMMLU. I am passionate about creating <highlight>more efficient algorithms for LLMs (make them cheaper but with better accuracy)</highlight> and building <highlight>agentic systems for task automation (make them intelligent to decrease human intervention)</highlight>. While I enjoy exploring cutting-edge research papers, I dedicate even more time to implementing and coding innovative solutions.",
+    "bio": "Thank you for visiting! I am an AI Research Engineer with nearly two years of hands-on experience in Large Language Models (LLMs), Generative AI, and Mixture-of-Experts (MoE) algorithms. Currently, I work at FPT Software AI Center, contributing to both research and engineering projects. My expertise spans developing and optimizing Vision-Language Models, designing advanced AI agents, and building benchmarking frameworks such as LibMoE and CodeMMLU. I am passionate about creating <highlight>more efficient algorithms for LLMs (make them cheaper but with better accuracy)</highlight> and building <highlight>agentic systems for task automation (make them intelligent to decrease human intervention)</highlight>. While I enjoy exploring cutting-edge research papers, I dedicate even more time to implementing and coding innovative solutions.",
     "supervisor": {
-      "name": "Dr. Quang Pham", 
-      "experience": "Senior Research Scientist, Singapore", 
+      "name": "", 
+      "experience": "", 
       "homepage": ""
     }
   },
