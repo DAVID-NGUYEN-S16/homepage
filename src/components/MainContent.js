@@ -34,6 +34,11 @@ const MainContent = ({ data }) => {
               ))}
             </div>
           </div>
+          {news.length > 3 && (
+            <div className={styles.newsHint}>
+              Scroll to see more updates ↓
+            </div>
+          )}
         </Section>
 
         <Section title="Publications" id="publications">
