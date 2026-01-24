@@ -69,19 +69,20 @@
       "content": "Joined FPT Software AI Center as an AI Research Engineer.",
       "links": []
     },
+    
+    {
+      "date": "Apr 2024",
+      "content": "I left CW Lab.",
+      "links": ["https://github.com/CW-Research-Lab"]
+    },
     {
       "date": "Mar 2024",
       "content": "The new SemViQA upgrade achieved the top position on the private leaderboard, delivering 7x faster inference speed. Explore our technical report: arxiv.org/abs/2503.00955",
       "links": ["https://arxiv.org/abs/2503.00955"]
     },
     {
-      "date": "Apr 2024",
-      "content": "Concluded my role as a founding member at CW Lab.",
-      "links": ["https://github.com/CW-Research-Lab"]
-    },
-    {
       "date": "Dec 2023",
-      "content": "Founded CW Lab, a student-led startup lab at my university focused on developing speech-to-speech translation technologies to break language barriers worldwide, together with four fellow founding members under the guidance of a senior engineer.",
+      "content": "Founded CW Lab, a student-led university startup lab developing speech-to-speech translation technology to break global language barriers, alongside four peers under senior engineer mentorship.",
       "links": ["https://github.com/CW-Research-Lab"]
     },
     {

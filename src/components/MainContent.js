@@ -22,15 +22,17 @@ const MainContent = ({ data }) => {
         </div>
 
         <Section title="News" id="news">
-          <div className={styles.newsList}>
-            {news.map((item, index) => (
-              <NewsItem
-                key={index}
-                date={item.date}
-                content={item.content}
-                links={item.links}
-              />
-            ))}
+          <div className={styles.newsScroll}>
+            <div className={styles.newsList}>
+              {news.map((item, index) => (
+                <NewsItem
+                  key={index}
+                  date={item.date}
+                  content={item.content}
+                  links={item.links}
+                />
+              ))}
+            </div>
           </div>
         </Section>
 

@@ -110,6 +110,11 @@
   gap: 15px;
 }
 
+.newsScroll {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
 .newsItem {
   line-height: 1.8;
 }
