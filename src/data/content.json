@@ -50,6 +50,11 @@
       "links": []
     },
     {
+      "date": "Oct 2024",
+      "content": "Graduated from IUH with a Bachelor's degree in Data Science (CGPA: 3.65/4), completing the program one year early!",
+      "links": []
+    },
+    {
       "date": "Nov 2024",
       "content": "We released LibMoE: a new framework for training and validating Sparse Mixture of Experts models!",
       "links": []
@@ -59,11 +64,7 @@
       "content": "We released CodeMMLU: A Multi-Task Benchmark for Assessing Code Understanding Capabilities!",
       "links": []
     },
-    {
-      "date": "Oct 2024",
-      "content": "Graduated from IUH with a Bachelor's degree in Data Science (CGPA: 3.65/4), completing the program one year early!",
-      "links": []
-    },
+    
     {
       "date": "Jun 2024",
       "content": "Joined FPT Software AI Center as an AI Research Engineer.",
