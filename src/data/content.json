@@ -60,19 +60,29 @@
       "links": []
     },
     {
-      "date": "Jun 2024",
-      "content": "Joined FPT Software AI Center as an AI Research Engineer.",
-      "links": []
-    },
-    {
       "date": "Oct 2024",
       "content": "Graduated from IUH with a Bachelor's degree in Data Science (CGPA: 3.65/4), completing the program one year early!",
       "links": []
     },
     {
-      "date": "Dec 2024",
+      "date": "Jun 2024",
+      "content": "Joined FPT Software AI Center as an AI Research Engineer.",
+      "links": []
+    },
+    {
+      "date": "Mar 2024",
       "content": "The new SemViQA upgrade achieved the top position on the private leaderboard, delivering 7x faster inference speed. Explore our technical report: arxiv.org/abs/2503.00955",
       "links": ["https://arxiv.org/abs/2503.00955"]
+    },
+    {
+      "date": "Apr 2024",
+      "content": "Concluded my role as a founding member at CW Lab.",
+      "links": ["https://github.com/CW-Research-Lab"]
+    },
+    {
+      "date": "Dec 2023",
+      "content": "Founded CW Lab, a student-led startup lab at my university focused on developing speech-to-speech translation technologies to break language barriers worldwide, together with four fellow founding members under the guidance of a senior engineer.",
+      "links": ["https://github.com/CW-Research-Lab"]
     },
     {
       "date": "Oct 2023",
