@@ -40,6 +40,11 @@
   "collaboration": "",
   "news": [
     {
+      "date": "Jan 2026",
+      "content": "Recognition Award for Remarkable Potential and Excellent Performance as a Rookie (FPT Corporation)",
+      "links": ["https://drive.google.com/file/d/1HdwJ55jwkSNCxzkOSD4gy3MksOykGCPY/view?usp=sharing"]
+    },
+    {
       "date": "Jun 2025",
       "content": "Announcing the release of CompeteSMoE++ — our next-generation SMoE algorithm!",
       "links": []
