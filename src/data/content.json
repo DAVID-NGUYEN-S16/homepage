@@ -205,9 +205,7 @@
       "organization": "FPT Software AI Center",
       "location": "Ho Chi Minh City, Vietnam",
       "details": [
-        "Leading the LibMoE and CompeteSMoE++ projects",
-        "Agentic Predictive Maintenance for Manufacturing (PoC Demo)",
-        "Contributed to the CodeMMLU team, collaborating on multi-task benchmarking for code understanding in LLM."
+        "Researching and developing novel methods to build faster, smaller, and more accurate AI models."
       ]
     },
     {
@@ -239,7 +237,7 @@
     },
     {
       "title": "Encouragement Prize",
-      "details": "UIT Challenge 2023 Competition (Ranked 1st on private leaderboard)"
+      "details": "UIT Challenge 2023 Competition — Upgraded SemViQA to rank 1st on the private leaderboard (as of 2024)"
     }
   ]
 }
