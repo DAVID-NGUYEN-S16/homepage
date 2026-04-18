@@ -151,7 +151,7 @@
           "id": 2,
           "title": "SemViQA: A Semantic Question Answering System for Vietnamese Information Fact-Checking",
           "authors": "Dien X. Tran*, Nam V. Nguyen*, Thanh T. Tran, Anh T. Hoang, Tai V. Duong, Di T. Le, Phuc-Lu Le",
-          "venue": "ACL 2026 (Industry Track)",
+          "venue": "ACL 2026 Industry Track (A*)",
           "links": {
             "paper": "https://arxiv.org/abs/2503.00955v1",
             "github": "https://github.com/DAVID-NGUYEN-S16/SemViQA"
