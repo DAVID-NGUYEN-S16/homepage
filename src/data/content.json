@@ -5,8 +5,8 @@
     "title": "AI Research Engineer at FPT Software AI Center",
     "bio": "Thank you for visiting! I am an AI Research Engineer with nearly two years of hands-on experience in Large Language Models (LLMs), Generative AI, and Mixture-of-Experts (MoE) algorithms. Currently, I work at FPT Software AI Center, contributing to both research and engineering projects. My expertise spans developing and optimizing Vision-Language Models, designing advanced AI agents, and building benchmarking frameworks such as LibMoE and CodeMMLU. I am passionate about creating <highlight>more efficient algorithms for LLMs (make them cheaper but with better accuracy)</highlight> and building <highlight>agentic systems for task automation (make them intelligent to decrease human intervention)</highlight>. While I enjoy exploring cutting-edge research papers, I dedicate even more time to implementing and coding innovative solutions.",
     "supervisor": {
-      "name": "To be updated soon", 
-      "experience": "", 
+      "name": "To be updated soon",
+      "experience": "",
       "homepage": ""
     }
   },
@@ -15,34 +15,51 @@
     "email": "nguyenvannam14056969@gmail.com",
     "linkedin": "https://www.linkedin.com/in/davidnguyens1/",
     "github": "https://github.com/DAVID-NGUYEN-S16",
-    "googleScholar": "https://scholar.google.com/citations?user=GEZ5G_MAAAAJ&hl=en", 
+    "googleScholar": "https://scholar.google.com/citations?user=GEZ5G_MAAAAJ&hl=en",
     "cv": "https://www.linkedin.com/in/davidnguyens1/"
   },
   "research": [
     {
       "title": "Mixture-of-Experts (MoE)",
-      "publications": ["LibMoE", "CompeteSMoE++"]
+      "publications": [
+        "LibMoE",
+        "CompeteSMoE++"
+      ]
     },
     {
       "title": "Code Understanding and Generation",
-      "publications": ["CodeMMLU (ICLR'25)"]
+      "publications": [
+        "CodeMMLU (ICLR'25)"
+      ]
     },
     {
       "title": "AI Agents and Agentic Systems",
-      "publications": ["Agentic Predictive Maintenance (PoC)"]
+      "publications": [
+        "Agentic Predictive Maintenance (PoC)"
+      ]
     },
     {
       "title": "Vietnamese Natural Language Processing (NLP)",
-      "publications": ["SemViQA"]
+      "publications": [
+        "SemViQA"
+      ]
     }
   ],
-  
   "collaboration": "",
   "news": [
     {
+      "date": "Apr 2026",
+      "content": "Our paper SemViQA has been accepted at ACL 2026 Industry Track!",
+      "links": [
+        "https://arxiv.org/abs/2503.00955v1"
+      ]
+    },
+    {
       "date": "Jan 2026",
       "content": "Recognition Award for Remarkable Potential and Excellent Performance",
-      "links": ["https://drive.google.com/file/d/1HdwJ55jwkSNCxzkOSD4gy3MksOykGCPY/view?usp=sharing"]
+      "links": [
+        "https://drive.google.com/file/d/1HdwJ55jwkSNCxzkOSD4gy3MksOykGCPY/view?usp=sharing"
+      ]
     },
     {
       "date": "Jun 2025",
@@ -69,33 +86,37 @@
       "content": "We released CodeMMLU: A Multi-Task Benchmark for Assessing Code Understanding Capabilities!",
       "links": []
     },
-    
     {
       "date": "Jun 2024",
       "content": "Joined FPT Software AI Center as an AI Research Engineer.",
       "links": []
     },
-    
     {
       "date": "Apr 2024",
       "content": "I left CW Lab.",
-      "links": ["https://github.com/CW-Research-Lab"]
+      "links": [
+        "https://github.com/CW-Research-Lab"
+      ]
     },
     {
       "date": "Mar 2024",
       "content": "The new SemViQA upgrade achieved the top position on the private leaderboard, delivering 7x faster inference speed. Explore our technical report: arxiv.org/abs/2503.00955",
-      "links": ["https://arxiv.org/abs/2503.00955"]
+      "links": [
+        "https://arxiv.org/abs/2503.00955"
+      ]
     },
     {
       "date": "Dec 2023",
       "content": "Founded CW Lab, a student-led university startup lab developing speech-to-speech translation technology to break global language barriers, alongside four peers under senior engineer mentorship.",
-      "links": ["https://github.com/CW-Research-Lab"]
+      "links": [
+        "https://github.com/CW-Research-Lab"
+      ]
     },
     {
       "date": "Oct 2023",
       "content": "Encouragement Prize at UIT Challenge 2023 Competition with our Vietnamese fact-checking framework SemViQA!",
       "links": []
-    }, 
+    },
     {
       "date": "Dec 2022",
       "content": "Awarded the Second Prize at the 31st Vietnam Student Informatics Olympiad.",
@@ -113,7 +134,6 @@
     }
   ],
   "publications": [
-   
     {
       "year": "2025",
       "items": [
@@ -131,20 +151,17 @@
           "id": 2,
           "title": "SemViQA: A Semantic Question Answering System for Vietnamese Information Fact-Checking",
           "authors": "Dien X. Tran*, Nam V. Nguyen*, Thanh T. Tran, Anh T. Hoang, Tai V. Duong, Di T. Le, Phuc-Lu Le",
-          "venue": "",
+          "venue": "ACL 2026 (Industry Track)",
           "links": {
-            "paper": "https://arxiv.org/pdf/2503.00955",
+            "paper": "https://arxiv.org/abs/2503.00955v1",
             "github": "https://github.com/DAVID-NGUYEN-S16/SemViQA"
           }
         }
-        
-        
       ]
     },
     {
       "year": "2024",
       "items": [
-        
         {
           "id": 1,
           "title": "LibMoE: A Library for Comprehensive Benchmarking of Mixture of Experts in LLMs",
@@ -159,17 +176,14 @@
           "id": 2,
           "title": "CodeMMLU: A Multi-Task Benchmark for Assessing Code Understanding Capabilities of CodeLLMs",
           "authors": "Dung Nguyen Manh, Thang Phan Chau, Nam Le Hai, Thong T. Doan, Nam V. Nguyen, Quang Pham, Nghi D. Q. Bui",
-          "venue": "Accepted at ICLR 2025 (A*)",
+          "venue": "ICLR 2025 (A*)",
           "links": {
             "paper": "https://arxiv.org/pdf/2410.01999",
             "github": "https://github.com/FSoft-AI4Code/CodeMMLU"
           }
         }
-        
-        
       ]
     }
- 
   ],
   "education": [
     {
@@ -192,7 +206,7 @@
       "location": "Ho Chi Minh City, Vietnam",
       "details": [
         "Leading the LibMoE and CompeteSMoE++ projects",
-        "Agentic Predictive Maintenance for Manufacturing (PoC Demo)", 
+        "Agentic Predictive Maintenance for Manufacturing (PoC Demo)",
         "Contributed to the CodeMMLU team, collaborating on multi-task benchmarking for code understanding in LLM."
       ]
     },
@@ -204,7 +218,6 @@
       "details": ""
     }
   ],
-  
   "skills": [
     {
       "category": "Machine Learning & LLM",
@@ -228,6 +241,5 @@
       "title": "Encouragement Prize",
       "details": "UIT Challenge 2023 Competition (Ranked 1st on private leaderboard)"
     }
-    
   ]
 }
