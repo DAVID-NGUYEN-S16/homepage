@@ -173,9 +173,9 @@
           "id": 1,
           "title": "LibMoE: A Library for Comprehensive Benchmarking of Mixture of Experts in LLMs",
           "authors": "Nam V. Nguyen, Thong T. Doan, Luong Tran, Van Nguyen, Quang Pham",
-          "venue": "TMLR, 2026",
+          "venue": "TMLR 2026",
           "links": {
-            "paper": "https://arxiv.org/pdf/2411.00918",
+            "paper": "https://openreview.net/forum?id=PB2ju8tq0n",
             "github": "https://github.com/Fsoft-AIC/LibMoE"
           }
         },
