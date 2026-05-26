@@ -48,6 +48,13 @@
   "collaboration": "",
   "news": [
     {
+      "date": "May 2026",
+      "content": "Our paper LibMoE has been accepted at TMLR 2026!",
+      "links": [
+        "https://openreview.net/forum?id=PB2ju8tq0n"
+      ]
+    },
+    {
       "date": "Apr 2026",
       "content": "Our paper SemViQA has been accepted at ACL 2026 Industry Track!",
       "links": [
