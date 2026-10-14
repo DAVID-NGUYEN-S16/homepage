@@ -50,11 +50,7 @@
     {
       "date": "Oct 2026",
       "content": "Our paper Agentic4PDM: Host-Governed Evidence Admissibility for Industrial Fault Diagnosis is now on arXiv! Code coming on Oct 16, 2026.",
-      "links": [
-        { "label": "Paper", "url": "https://arxiv.org/abs/2610.17786" },
-        { "label": "Project Page", "url": "https://david-nguyen-s16.github.io/agentic4pdm_homepage/" },
-        { "label": "Demo Video", "url": "https://david-nguyen-s16.github.io/agentic4pdm_homepage/#demo" }
-      ]
+      "links": []
     },
     {
       "date": "May 2026",
