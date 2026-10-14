@@ -62,6 +62,16 @@ const MainContent = ({ data }) => {
                             [Paper]
                           </a>
                         )}
+                        {pub.links.project && (
+                          <a href={pub.links.project} target="_blank" rel="noopener noreferrer" className={styles.publicationLink}>
+                            [Project Page]
+                          </a>
+                        )}
+                        {pub.links.video && (
+                          <a href={pub.links.video} target="_blank" rel="noopener noreferrer" className={styles.publicationLink}>
+                            [Demo Video]
+                          </a>
+                        )}
                         {pub.links.github && (
                           <a href={pub.links.github} target="_blank" rel="noopener noreferrer" className={styles.publicationLink}>
                             [Code]

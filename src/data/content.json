@@ -5,9 +5,10 @@
     "title": "AI Research Engineer at FPT Software AI Center",
     "bio": "Thank you for visiting! I am an AI Research Engineer with nearly two years of hands-on experience in Large Language Models (LLMs), Generative AI, and Mixture-of-Experts (MoE) algorithms. Currently, I work at FPT Software AI Center, contributing to both research and engineering projects. My expertise spans developing and optimizing Vision-Language Models, designing advanced AI agents, and building benchmarking frameworks such as LibMoE and CodeMMLU. I am passionate about creating <highlight>more efficient algorithms for LLMs (make them cheaper but with better accuracy)</highlight> and building <highlight>agentic systems for task automation (make them intelligent to decrease human intervention)</highlight>. While I enjoy exploring cutting-edge research papers, I dedicate even more time to implementing and coding innovative solutions.",
     "supervisor": {
-    "name": "Regarding my supervisors, I have worked with several scientists and researchers, as reflected in my publications. I would appreciate it if you could take some time to review my papers to better understand my research collaborations and experience.",
-    "experience": "",
-    "homepage": ""
+      "name": "Regarding my supervisors, I have worked with several scientists and researchers, as reflected in my publications. I would appreciate it if you could take some time to review my papers to better understand my research collaborations and experience.",
+      "experience": "",
+      "homepage": ""
+    }
   },
   "contact": {
     "location": "Ho Chi Minh City, Vietnam",
@@ -34,7 +35,7 @@
     {
       "title": "AI Agents and Agentic Systems",
       "publications": [
-        "Agentic Predictive Maintenance (PoC)"
+        "Agentic4PDM (arXiv'26)"
       ]
     },
     {
@@ -46,6 +47,15 @@
   ],
   "collaboration": "",
   "news": [
+    {
+      "date": "Oct 2026",
+      "content": "Our paper Agentic4PDM: Host-Governed Evidence Admissibility for Industrial Fault Diagnosis is now on arXiv! Code coming on Oct 16, 2026.",
+      "links": [
+        { "label": "Paper", "url": "https://arxiv.org/abs/2610.17786" },
+        { "label": "Project Page", "url": "https://david-nguyen-s16.github.io/agentic4pdm_homepage/" },
+        { "label": "Demo Video", "url": "https://david-nguyen-s16.github.io/agentic4pdm_homepage/#demo" }
+      ]
+    },
     {
       "date": "May 2026",
       "content": "Our paper LibMoE has been accepted at TMLR 2026!",
@@ -140,6 +150,23 @@
     }
   ],
   "publications": [
+    {
+      "year": "2026",
+      "items": [
+        {
+          "id": 1,
+          "title": "Agentic4PDM: Host-Governed Evidence Admissibility for Industrial Fault Diagnosis",
+          "authors": "Nam V. Nguyen, Hoang Van Truong, Hieu D. D., Duy Khuong Nguyen, Quang Pham, Tung Kieu",
+          "venue": "arXiv preprint arXiv:2610.17786",
+          "links": {
+            "paper": "https://arxiv.org/abs/2610.17786",
+            "project": "https://david-nguyen-s16.github.io/agentic4pdm_homepage/",
+            "video": "https://david-nguyen-s16.github.io/agentic4pdm_homepage/#demo",
+            "github": "https://github.com/DAVID-NGUYEN-S16/Agentic4PDM"
+          }
+        }
+      ]
+    },
     {
       "year": "2025",
       "items": [

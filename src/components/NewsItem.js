@@ -13,7 +13,7 @@ const NewsItem = ({ date, content, links = [] }) => {
     }
 
     // Try to link "CW Lab" with the first link if present in content
-    const primaryLink = links[0];
+    const primaryLink = typeof links[0] === 'string' ? links[0] : links[0].url;
     const anchorText = 'CW Lab';
     const anchorIndex = content.indexOf(anchorText);
 
@@ -36,14 +36,21 @@ const NewsItem = ({ date, content, links = [] }) => {
     return (
       <span>
         {content}
-        {links.map((link, idx) => (
-          <React.Fragment key={idx}>
-            {' '}
-            <a href={link} target="_blank" rel="noopener noreferrer">
-              {links.length === 1 ? '[Link]' : `[Link ${idx + 1}]`}
-            </a>
-          </React.Fragment>
-        ))}
+        {links.map((link, idx) => {
+          // A link is either a plain URL or { label, url }.
+          const url = typeof link === 'string' ? link : link.url;
+          const label = typeof link === 'string'
+            ? (links.length === 1 ? 'Link' : `Link ${idx + 1}`)
+            : link.label;
+          return (
+            <React.Fragment key={idx}>
+              {' '}
+              <a href={url} target="_blank" rel="noopener noreferrer">
+                [{label}]
+              </a>
+            </React.Fragment>
+          );
+        })}
       </span>
     );
   };
