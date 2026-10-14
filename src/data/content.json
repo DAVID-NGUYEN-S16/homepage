@@ -18,30 +18,35 @@
     "googleScholar": "https://scholar.google.com/citations?user=GEZ5G_MAAAAJ&hl=en",
     "cv": "https://drive.google.com/drive/folders/1jTgVoaKXun4E0gEyine5qafWTyVnhbm6?usp=sharing"
   },
+  "researchIntro": "My work covers the full life cycle of LLM systems, from building data and training models to building agents on top:",
   "research": [
     {
-      "title": "Mixture-of-Experts (MoE)",
+      "title": "Benchmark and Data Curation",
+      "description": "designing and curating benchmark datasets for code understanding",
       "publications": [
-        "LibMoE",
-        "CompeteSMoE++"
+        { "label": "CodeMMLU (ICLR'25)", "url": "https://arxiv.org/pdf/2410.01999" }
       ]
     },
     {
-      "title": "Code Understanding and Generation",
+      "title": "LLM and Vision-Language Model Training",
+      "description": "efficient sparse Mixture-of-Experts (MoE) training and algorithms",
       "publications": [
-        "CodeMMLU (ICLR'25)"
+        { "label": "LibMoE (TMLR'26)", "url": "https://openreview.net/forum?id=PB2ju8tq0n" },
+        { "label": "CompeteSMoE++ (preprint)", "url": "https://arxiv.org/pdf/2505.13380" }
       ]
     },
     {
       "title": "AI Agents and Agentic Systems",
+      "description": "tool-using agents for industrial fault diagnosis, with host-governed evidence",
       "publications": [
-        "Agentic4PDM (arXiv'26)"
+        { "label": "Agentic4PDM (arXiv'26)", "url": "https://arxiv.org/abs/2610.17786" }
       ]
     },
     {
-      "title": "Vietnamese Natural Language Processing (NLP)",
+      "title": "NLP and Information Retrieval",
+      "description": "evidence retrieval and claim verification for Vietnamese fact-checking",
       "publications": [
-        "SemViQA"
+        { "label": "SemViQA (ACL'26 Industry)", "url": "https://arxiv.org/abs/2503.00955v1" }
       ]
     }
   ],

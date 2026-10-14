@@ -16,6 +16,16 @@
   margin-bottom: 15px;
 }
 
+.researchAreas {
+  list-style: decimal;
+  padding-left: 25px;
+  margin: 0 0 15px;
+}
+
+.researchAreas li {
+  margin-bottom: 8px;
+}
+
 .highlight {
   background-color: var(--highlight-bg);
   padding: 3px 8px;

@@ -4,7 +4,7 @@ import Section from './Section';
 import NewsItem from './NewsItem';
 
 const MainContent = ({ data }) => {
-  const { personal, news, publications, education, experiences } = data;
+  const { personal, researchIntro, research = [], news, publications, education, experiences } = data;
 
   return (
     <main className={styles.mainContent}>
@@ -19,6 +19,27 @@ const MainContent = ({ data }) => {
               return <React.Fragment key={index}>{part}</React.Fragment>;
             })}
           </p>
+          {research.length > 0 && (
+            <>
+              <p>{researchIntro}</p>
+              <ol className={styles.researchAreas}>
+                {research.map((area, index) => (
+                  <li key={index}>
+                    {area.title}
+                    {area.description && `: ${area.description}`}{' '}
+                    [
+                    {area.publications.map((pub, i) => (
+                      <React.Fragment key={i}>
+                        {i > 0 && ', '}
+                        <a href={pub.url} target="_blank" rel="noopener noreferrer">{pub.label}</a>
+                      </React.Fragment>
+                    ))}
+                    ]
+                  </li>
+                ))}
+              </ol>
+            </>
+          )}
         </div>
 
         <Section title="News" id="news">
